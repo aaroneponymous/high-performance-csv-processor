@@ -1,0 +1,51 @@
+# CLion / CMake out-of-source builds
+cmake-build-*/
+out/
+build/
+build-*/
+
+# In-source CMake leftovers
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+Testing/
+install_manifest.txt
+_deps/
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+main
+million_rows
+
+# Large generated / downloaded datasets
+sample_files/*.txt
+
+# CLion / JetBrains
+.idea/
+
+# Editor / OS junk
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+core
+core.*
+*.dmp
